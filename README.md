@@ -3,6 +3,8 @@ The project aims at preparing a CSV file which categorizes data about into State
 	
 The link of the website which needs to be scraped: http://www.fallingrain.com/world/IN/
 
+File to be executed: main.py 
+
 Languages Used: Python
 
 Libraries Required: requests, bs4 (Beautiful Soup), os, csv and re
