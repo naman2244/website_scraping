@@ -57,8 +57,6 @@ for i in weblinks:																					      #Each link is parsed and visited
 						elevation = r[q].findAll('td')[6].text
 						population = r[q].findAll('td')[7].text
 					
-					
-					
 					data.append([state, city, latitude, longitude, elevation, population])
 					
 				
