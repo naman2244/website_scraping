@@ -18,6 +18,6 @@ To run the file, mainly some of installation would be required.
 Approach:
 Python is chosen as it supports significant libraries to support web scraping. The aim was to parse all the relevant URLs and extract 	the data from them. So, from the main page all the URLs were stored in a data structure and then one by one each of them were visited. 	On the visit to a page, it was found that 2 types of table might be present i.e. one with map embedded in it and other with the required data entries. A page may contain 3 types of responses:  	
 1) URLs to some other pages containing data entries (Like in Rajasthan we have A followed by Aj)
-2) URLS along with map (in the form of table)
+2) URLs along with map (in the form of table)
 3) Map along with a valid data table (or entry).
 The relevant links found on the page were added to the data structure; otherwise the page was looked upon for 8 <th> tags. If found then the rows, beside the header row, are added to the ResultSet. Finally, the data stored in form of list is written to the CSV file.
